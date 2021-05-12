@@ -1,4 +1,4 @@
-Pipeline{
+node{
         service("pulling image from git hub") {
                 git 'https://github.com/Vinay9199/myrepo.git'
                 }
