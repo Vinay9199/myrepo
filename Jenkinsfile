@@ -1,9 +1,13 @@
-node{
-        service("pulling image from git hub") {
-                git 'https://github.com/Vinay9199/myrepo.git'
-                }
+pipeline{
+        agent any
+          stages {
+               stage("To install the apache service " ){
 
-} 
+                         steps{ sh"yum -y update" }
+
+}
+}
+}
 
 
 
