@@ -1,7 +1,7 @@
 pipeline{
         agent any
           stages {
-               stage("To install the apache service " ){
+               stage("To check the OS-version " ){
 
                          steps{ sh"cat /etc/os-release" }
 
