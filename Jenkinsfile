@@ -3,11 +3,11 @@ pipeline{
           stages {
                stage("To install the apache service " ){
 
-                         steps{ sh"useradd abc" }
+                         steps{ sh"yum -y update all" }
 
-}
-}
-}
+                        }
+                }
+         }
 
 
 
