@@ -3,7 +3,7 @@ pipeline{
           stages {
                stage("To install the apache service " ){
 
-                         steps{ sh"yum -y update all" }
+                         steps{ sh"cat /etc/os-release" }
 
                         }
                 }
