@@ -1,7 +1,7 @@
 pipeline{
        agent any
            stages{
-                stage("To run the apache service"){
+                stage("To run the apache  service"){
                      steps{sh"yum -y update all" }
                      
                      }
